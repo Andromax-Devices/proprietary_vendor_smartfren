@@ -254,6 +254,12 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDiracAPI_SHARED.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/soundfx/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdirac.so
 
+# Thermal Engine
+PRODUCT_COPY_FILES += \
+    vendor/smartfren/rendang/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so
+
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
