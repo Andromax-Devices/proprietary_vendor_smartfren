@@ -51,6 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_gc2355_rendang.so:system/vendor/lib/libmmcamera_gc2355_rendang.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_ov5648_q5v22e_rendang.so:system/vendor/lib/libmmcamera_ov5648_q5v22e_rendang.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:system/vendor/lib/libmmcamera_ov5670_q5v41b.so \
+    vendor/smartfren/rendang/proprietary/lib/sensors.hal.tof.so:system/lib/hw/sensors.hal.tof.so \
     vendor/smartfren/rendang/proprietary/lib/sensors.rendang.so:system/lib/sensors.rendang.so \
     vendor/smartfren/rendang/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/smartfren/rendang/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
