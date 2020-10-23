@@ -233,6 +233,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener \
     ims \
+    imssettings \
     imscmlibrary \
     qcnvitems \
     qcrilhook
