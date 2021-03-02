@@ -1,5 +1,5 @@
 # Copyright (C) 2015-2016 The CyanogenMod Project
-# Copyright (C) 2017-2020 The LineageOS Project
+# Copyright (C) 2017-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -101,69 +101,36 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_13p1ba_h2x.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_13p1ba_h2x_camcorder.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_13p1ba_h2x_camera.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_camcorder.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_camera.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_meituosi_h2x.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_meituosi_h2x_camcorder.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_meituosi_h2x_camera.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_sikao_h2x.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_sikao_h2x_camcorder.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_sikao_h2x_camera.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9718s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9718s_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s_camcorder.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9718s_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s_camera.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_a11.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_a11_camcorder.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_a11_camera.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_camcorder.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_camera.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_h2x.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_h2x_camcorder.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz_h2x_camera.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_ov5648_rendang.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_ov5648_rendang.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_ov5648_rendang_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_ov5648_rendang_camcorder.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_ov5648_rendang_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_ov5648_rendang_camera.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_ov5670_rendang.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_ov5670_rendang.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_ov5670_rendang_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_ov5670_rendang_camcorder.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libactuator_dw9714_ov5670_rendang_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_ov5670_rendang_camera.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libcalmodule_akm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalmodule_akm.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalmodule_gyroscope.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libcalmodule_yamaha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalmodule_yamaha.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_5987fhq_common.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_5987fhq_default_video.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_5987fhq_snapshot.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov2680_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_common.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov2680_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_default_video.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov2680_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov2680_snapshot.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_common.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_default_video.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_hfr_60fps.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_hfr_90fps.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_liveshot.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_preview.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_q8v18a_snapshot.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_qtech_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_common.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_qtech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_default_video.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_qtech_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_hfr_120fps.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_qtech_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_hfr_60fps.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_qtech_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_hfr_90fps.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_qtech_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_liveshot.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_qtech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_preview.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_qtech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_qtech_snapshot.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_sunny_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_common.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_sunny_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_default_video.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_hfr_120fps.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_hfr_60fps.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_hfr_90fps.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_sunny_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_liveshot.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_sunny_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_preview.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov8865_sunny_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov8865_sunny_snapshot.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_gc2355_rendang_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_gc2355_rendang_common.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_gc2355_rendang_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_gc2355_rendang_preview.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_rendang_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_q5v22e_rendang_common.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_rendang_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_q5v22e_rendang_default_video.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_rendang_default_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_q5v22e_rendang_default_video_hd.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_rendang_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_q5v22e_rendang_preview.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_rendang_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_q5v22e_rendang_snapshot.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_rendang_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5648_q5v22e_rendang_zsl.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_rendang_common.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_rendang_default_video.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_rendang_hfr_120fps.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_rendang_hfr_60fps.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_rendang_hfr_90fps.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_rendang_liveshot.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_rendang_preview.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_rendang_snapshot.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_video_hd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_rendang_video_hd.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_rendang_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov5670_q5v41b_rendang_zsl.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcneapiclient.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
@@ -207,18 +174,16 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera2_vpe_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_vpe_module.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera2_wnr_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_wnr_module.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_gc2355_rendang.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_gc2355_rendang.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_hdr_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_lib.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_ov2680_5987fhq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2680_5987fhq.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_ov2680_skuhf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2680_skuhf.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8865_q8v18a.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_ov5648_q5v22e_rendang.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5648_q5v22e_rendang.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5670_q5v41b.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q8v18a_eeprom.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_wavelet_lib.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmipl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmipl.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
